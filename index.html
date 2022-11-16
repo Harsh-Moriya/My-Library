@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h2> Library</h2>
+    </nav>
+    <section class="cont">
+        <section class="left-cont">
+            <div class="add-book">
+                <h2>Add a Book</h2>
+                <div><label>Name: &nbsp;&nbsp;&nbsp;</label> <input type="text" class="add-name"></div>
+                <div><label>Author: &nbsp;</label> <input type="text" class="author"></div>
+                <div><label>Genre: &nbsp;&nbsp;</label> <input type="text" class="genre">
+                <div class="btn-cont">
+                    <button class="btn btn-add">Add</button>
+                </div>
+            </div>
+        </section>
+        <section class="right-cont">
+            <div class="manage-book">
+                <h2>Issue/Return a Book</h2>
+                <div><label>Name: &nbsp;&nbsp;</label> <input type="text" class="manage-name"></div>
+                <div><label>User: &nbsp;&nbsp;&nbsp;&nbsp;</label> <input type="text" class="user"></div>
+                <div class="btn-cont">
+                    <button class="btn btn-issue">Issue</button>
+                    <button class="btn btn-return">Return</button>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <div class="search">
+        <input type="text" class="searchbar" placeholder="Search a Book">
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Status</th>
+                <th>Issued To</th>
+            </tr>
+        </thead>
+        <tbody class="table-content">
+        </tbody>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
